@@ -1,6 +1,6 @@
 # Kenshin 剣心
 
-![](./keymap-via.png)
+![](./assets/keymap-via.png)
 
 ## Features
 - [angle modded](https://colemakmods.github.io/ergonomic-mods/angle.html) for row staggered (aka standard) keyboards
@@ -10,12 +10,7 @@
 - high alternation
 - unchanged `c` and `g` positions compared to qwerty
 - alternate fingerings possible for `sy`, `sg`, `cg`, `cy` with LM and LI fingers
-- alternate fingerings possible for `ph` with RI and RM fingers
 - `sc` and `gy` sfbs can be an effortless downward motion due to angle mod
-
-## Tips.
-
-If you don't mind the `nk` sfbs/sfs on the pinky, you could swap `j` and `k` to reduce LSBs by **quite a lot**
 
 ## Top 10 SFBS on shai corpus
 ```
@@ -34,9 +29,9 @@ cy    0.030%
 ## Cmini
 
 ```
-  ; u o w q  k b m l j
-  e i a s g  p h t r n
-   . ' c y /  f d v z x
+  ; u o w q  b k m l j
+  e i a s g  d h t r n
+   . ' c y /  f p v z x
 
 SHAI:
   Alt: 32.27%
@@ -53,15 +48,15 @@ SHAI:
 
 ## Cyanophage
 
-[statistics](https://cyanophage.github.io/playground.html?lan=english&layout=%3Buowqkbmlj-eiasgphtrn%2C.%27cy%2Ffdvzx%5C%5E&mode=ansi) (statistics does not accurately reflect [angle mod](https://colemakmods.github.io/ergonomic-mods/angle.html))
+[statistics](https://cyanophage.github.io/playground.html?lan=english&layout=%3Buowqbkmlj-eiasgdhtrn%2C.%27cy%2Ffpvzx%5C%5E&mode=iso)
 
 ## Oxeylyzer Playground
 
-![](./Oxey.png)
+![](./assets/oxeylyzer.png)
 
 ## Keysolve
 
-![](./stats.png)
+![](./assets/keysolve.png)
 
 # Readings
 - https://semilin.github.io/blog/2023/layout_quality.html
