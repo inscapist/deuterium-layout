@@ -5,13 +5,17 @@
 ## Features
 - [angle modded](https://colemakmods.github.io/ergonomic-mods/angle.html) for row staggered (aka standard) keyboards
 - same hand h/j/k/l
-- high inrolls 
-- low scissors
-- high alternation
+- low SFS (4.71% vs kuntem 4.87% on shai)
+- comparatively high inrolls (26.18% vs rain 32.26% on shai) 
+- high inrolls to outrolls ratio (1.689, close to golden ratio of 1.618)
+- low pinky/ring scissors (0.26% vs nordrassils 0.24% and graphite 0.25% on cyaphonage)
+- high alternation (32.22% vs graphite 33.79% on shai)
 - unchanged `c` positions compared to qwerty
-- alternate fingerings for `sy`, `cy` and perhaps `gs` with LM and LI fingers
+- alternate fingerings for `sy`, `cy` and perhaps harder but possible `gs` and `sw` with LM and LI fingers
 - alternate fingerings for `ph` with RI and RM fingers
 - `sc` (angle modded) sfbs can be an effortless sliding motion
+
+**In short, all (top 10) sfbs are either altable or slidable, and all adjacent to each other**
 
 ## Top 10 SFBS on shai corpus
 ```
