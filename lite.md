@@ -3,7 +3,7 @@
 ![](./assets/via-kenshin-lite.png)
 
 # Features
-- preserves qwerty zxcv, g and h.
+- preserves qwerty zxcv, g and h positions
 - slightly lower alts
 - sfbs can be alted for:
   - gs (0.06%)
