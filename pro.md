@@ -17,7 +17,7 @@
 
 ## Tips
 - it is very natural to alt when `s` is at the end of the sequence
-- `sc` is difficult to alt due to sc[ao] taking up 0.05%(half of the SFBs). So it would be a sliding motion in practice.
+- `sc` is more difficult to alt due to sc[ao] taking up 0.05%(half of the SFBs). So it would be a sliding motion in practice, even though its possible to alt in my own experience
 - for `sy`, it's trainable to alt when it is at the beginning (eg. system). But when it's in the middle (eg, `async`), it may be difficult (but it's really not too bad)
 
 ## Top 10 SFBS

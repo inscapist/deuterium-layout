@@ -17,6 +17,7 @@
 - [Kenshin lite](./lite.md)
 - [Kenshin standard](./standard.md)
 - [Kenshin pro](./pro.md)
+- [Psych](./psych.md) (this is what I use)
 
 
 # Readings
