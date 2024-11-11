@@ -1,7 +1,7 @@
 # Kenshin 剣心
 
 
-![](./assets/via-kenshin-pro.png)
+![](./assets/cya-pro.png)
 
 ## Features
 - [angle modded](https://colemakmods.github.io/ergonomic-mods/angle.html) for row staggered (aka standard) keyboards

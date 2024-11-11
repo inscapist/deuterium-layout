@@ -1,6 +1,6 @@
 # Kenshin (standard)
 
-![](./assets/via-kenshin.png)
+![](./assets/cya-standard.png)
 
 # Features
 - preserves qwerty c/v/g positions

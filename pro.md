@@ -1,6 +1,6 @@
 # Kenshin pro
 
-![](./assets/via-kenshin-pro.png)
+![](./assets/cya-pro.png)
 
 # Features
 - preserves qwerty c

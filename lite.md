@@ -1,6 +1,6 @@
 # Kenshin lite
 
-![](./assets/via-kenshin-lite.png)
+![](./assets/cya-lite.png)
 
 # Features
 - preserves qwerty zxcv, g and h positions

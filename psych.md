@@ -1,6 +1,6 @@
 # Psych
 
-![](./assets/via-psych.png)
+![](./assets/cya-psych.png)
 
 Psych is basically kenshin, but with c moved to the right index. This blows up sfbs by a lot but they are all easily altable (ch, ck). 
 
