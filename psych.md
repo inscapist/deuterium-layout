@@ -4,7 +4,7 @@
 
 Psych is basically kenshin, but with c moved to the right index. This blows up sfbs by a lot but they are all easily altable (ch, ck). 
 
-## SFS Tips
+## SFS tips
 The SFS is already decent, but I've taken one step further by hitting the letter "d" with my RM finger, whenever d is the start of a word. This makes typing "deploy", "decode", "depends" a lot nicer.
 
 As a result, when there's a sequence of letters that are like d->[mtv]->[rlq] (0.0194%), I would hit [mtv] with my RR finger and [rlq] with my RP, and the fingers reset when a redirect breaks the chain.
@@ -54,6 +54,12 @@ distribution.    (351)
 
 **Another, probably the better way is to memorize certain common words like deploy, depends, decode, and only use RM "d" for those words.**
 
+
+## SFBs hand alternation?
+Y can sometimes be typed using RI:
+- "sys" can be typed this way: LI->RI->LI
+- "async": LM->LI->RI->RP->RI
+- similarly, "gy" and "zy" can be LI->RI
   
 ## Top 10 SFBS
 
