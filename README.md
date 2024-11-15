@@ -17,7 +17,8 @@
 - [Kenshin lite](./lite.md)
 - [Kenshin standard](./standard.md)
 - [Kenshin pro](./pro.md)
-- [Psych](./psych.md) (this is what I use but its not for everyone)
+- [Psych](./psych.md)
+- [Psych v2](./psych-v2.md) (improved hand balance)
 
 
 # Readings
