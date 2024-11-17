@@ -64,6 +64,31 @@ tw    0.068%
 
 ![](./assets/keysolve-endgame-m3.png)
 
+# Looking for kenshin?
+
+Kenshin is my first published layout, when I was still chasing stats (sfbs, sfs). But it is quite imbalanced in that the vowel hand has too much responsibility. ("because" is almost typed in the same hand, and "goes", just to illustrate)
+
+![](./assets/kenshin.png)
+
+
+```
+  ' u o w z  j k m l b  
+  e i a s y  p h t r n .
+   , ; c g /  d f v x q  
+
+SHAI:
+  Alt: 32.67%
+  Rol: 42.69%   (In/Out: 27.12% | 15.57%)
+  One:  1.59%   (In/Out:  0.41% |  1.19%)
+  Rtl: 44.28%   (In/Out: 27.53% | 16.76%)
+  Red:  3.90%   (Bad:     0.19%)
+
+  SFB: 1.14%
+  SFS: 4.71%    (Red/Alt: 1.59% | 3.12%)
+
+  LH/RH: 54.17% | 45.83%
+```
+
 
 # Readings
 - https://semilin.github.io/blog/2023/layout_quality.html
