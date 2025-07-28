@@ -1,92 +1,85 @@
-# Psych (Previously Kenshin 剣心)
+# Deuterium layout
 
-![](./assets/endgame-m3.png)
+## Main layer
+![](./assets/main.png)
 
-[link (select "angle mod")](https://cyanophage.github.io/playground.html?lan=english&layout=%2Fuofkjbmlp-eias%27chtrn.%2C%3Bvyzgdwxq%5C%5E&mode=iso)
+## Symbol+Nav layer
+![](./assets/layer.png)
 
-## Design choices
-- Prefer sfbs on index fingers
-- Prefer low sfs over sfbs because the latter can be alted more easily
-- Having hjkl in natural positions 
+## Cyanophage layout analyzer
+![](./assets/cyanophage.png)
 
-## Features
-- [angle modded](https://colemakmods.github.io/ergonomic-mods/angle.html) for row staggered (aka standard) keyboards
-- same hand h/j/k/l (k is technically on the right hand, but next to j)
-- sfbs are very alt-fingerable
-- low SFS (4.74% vs kuntem 4.87% on shai)
-- high rolls, especially inrolls
+[link (select "angle mod")](https://cyanophage.github.io/playground.html?lan=english&layout=%5Cou.%27xfrlbzeaicpmdntsv%2F%2Cwgyhkjq%3B-%5Eback&mode=iso&thumb=l)
+
+## Benefits
+- Very high efficiency due to very low SFBS, SFS (and redirect SFS). You would feel that all fingers are equally utilized
+- `y` can be typed with either hand, depending on letter sequence. And this eliminates a lot of efficiency problems
+- Sufficient alternation between hands and between fingers (**it is quite hard to achieve this**)
+- Having many letters on the homerow
+- High inrolls/outrolls ratio (outrolls can feel less natural if they are on the pinky/ring)
+- Having hjkl on the same hand in a relatively natural positions (vim + tiling window managers)
+
+## Design choices (some of it can be controversial)
+
+#### Pushes frequent letters to the outer ring/pinky
+This allows the index fingers to move inward reach inner column letters such as `y`, `p` and `x` more easily. In technical term, this reduces overall Lateral Stretch Bigrams (LSBs)
+
+#### `E` being on the pinky position
+I have `e` on pinky finger for almost a year, it is not really a problem. It may be a problem if `e` were to be on the right hand, as the right pinky has the additional burden of hitting BACKSPACE, ENTER, and punctuations.
+
+#### Having H at the qwerty `n` position
+H is somewhat frequent in common english, but there are several reasons I placed it there :
+- it eliminates 2u (2 rows) jump on the index fingers
+- it allows `why` to be typed in this sequence: Left index -> right index -> right index
+- it prevents index finger from being curled up in the `k` (qwerty `m`) position, which makes `y`/`x` harder to reach
+
+#### Right pinky having extra letters `z` and `v`
+The `v` position may a dealbreaker for some, but they are not unreasonable because `v` is usually a skipgram with another consonants (exceptions being `r`, `n`, `l`). And most of the letters that interact heavily with `v` are assigned to index finger, so there's sufficient runway. `z` is in the most awkward position but it is the least frequent letter in english. 
+
+```
+SHAI
+vr + rv: 0.06%
+  vr: 0.00%
+  rv: 0.06%
+vl + lv: 0.03%
+  vl: 0.00%
+  lv: 0.03%
+vn + nv: 0.05%
+  vn: 0.00%
+  nv: 0.05%
+Total: 0.14%
+```
+
+```
+SHAI
+v_l + l_v: 0.25%
+  v_l: 0.15%
+  l_v: 0.10%
+v_t + t_v: 0.16%
+  v_t: 0.05%
+  t_v: 0.11%
+Total: 0.41%
+```
 
 ## Cmini
 
 ``` 
-  / u o f k  j b m l p  
-  e i a s '  c h t r n .
-   , ; v y z  g d w x q  
+deuterium
+  _ o u . '  x f r l b z
+   e a i c p  m d n t s v
+    / , w g ȳ  h k j q ;  
 
 SHAI:
-  Alt: 31.15%
-  Rol: 43.07%   (In/Out: 27.37% | 15.69%)
-  One:  1.32%   (In/Out:  0.37% |  0.95%)
-  Rtl: 44.39%   (In/Out: 27.75% | 16.64%)
-  Red:  3.88%   (Bad:     0.30%)
+  Alt: 33.10%
+  Rol: 40.77%   (In/Out: 23.24% | 17.53%)
+  One:  1.00%   (In/Out:  0.58% |  0.41%)
+  Rtl: 41.77%   (In/Out: 23.82% | 17.94%)
+  Red:  3.01%   (Bad:     0.15%)
 
-  SFB: 1.83%
-  SFS: 4.74%    (Red/Alt: 0.94% | 3.80%)
+  SFB:  0.76%
+  SFS:  4.49%   (Red/Alt: 0.72% | 3.78%)
 
-  LH/RH: 51.23% | 48.77%
-```
-
-## Top 10 sfbs
-
-```
-ch    0.482% -> altable
-gh    0.235% -> altable
-'s    0.150% -> altable
-ui    0.104%
-ys    0.103% -> altable
-n.    0.092%
-rl    0.074%
-oa    0.072%
-ks    0.072% -> altable
-tw    0.068%
-```
-
-## Sfbs with alt-fingerings
-
-**0.79%**
-
-``` c
->>> 1.83 - 0.482 - 0.235 - 0.150 - 0.103 - 0.072
-0.788
-```
-
-## Keysolve
-
-![](./assets/keysolve-endgame-m3.png)
-
-# Looking for kenshin?
-
-Kenshin is my first published layout, when I was still chasing stats (sfbs, sfs). But it is quite imbalanced in that the vowel hand has too much responsibility. ("because" is almost typed in the same hand, and "goes", just to illustrate)
-
-![](./assets/kenshin.png)
-
-
-```
-  ' u o w z  j k m l b  
-  e i a s y  p h t r n .
-   , ; c g /  d f v x q  
-
-SHAI:
-  Alt: 32.67%
-  Rol: 42.69%   (In/Out: 27.12% | 15.57%)
-  One:  1.59%   (In/Out:  0.41% |  1.19%)
-  Rtl: 44.28%   (In/Out: 27.53% | 16.76%)
-  Red:  3.90%   (Bad:     0.19%)
-
-  SFB: 1.14%
-  SFS: 4.71%    (Red/Alt: 1.59% | 3.12%)
-
-  LH/RH: 54.17% | 45.83%
+  LH/RH: 49.85% | 50.15%
 ```
 
 
