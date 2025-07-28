@@ -12,9 +12,9 @@
 [link (select "angle mod")](https://cyanophage.github.io/playground.html?lan=english&layout=%5Cou.%27xfrlbzeaicpmdntsv%2F%2Cwgyhkjq%3B-%5Eback&mode=iso&thumb=l)
 
 ## Benefits
-- Very high efficiency due to very low SFBS, SFS (and redirect SFS). You would feel that all fingers are equally utilized
+- High efficiency due to very low SFBS, SFS (and redirect SFS). It should feel quite fluid as all fingers are equally utilized
 - `y` can be typed with either hand, depending on letter sequence. `y` interacts with nearly all english letters and this eliminates a lot of same finger bigram/skipgram problems
-- Sufficient alternation between hands and between fingers (**it is quite hard to achieve this**)
+- Sufficient alternation between hands and between (adjacent) fingers (**it is quite hard to achieve this**)
 - Having many letters on the homerow
 - High inrolls/outrolls ratio (outrolls can feel less natural if they are on the pinky/ring)
 - Having hjkl on the same hand in a relatively natural positions (vim + tiling window managers)
@@ -24,12 +24,12 @@
 ## Design choices (some of it can be controversial)
 
 #### Pushes frequent letters to the outer ring/pinky
-This allows the index fingers to move inward reach inner column letters such as `y`, `p` and `x` more easily. In technical term, this reduces overall Lateral Stretch Bigrams (LSBs)
+This allows the index fingers to move inward and reach inner column letters such as `y`, `p` and `x` more easily. In technical term, this reduces overall Lateral Stretch Bigrams (LSBs)
 
 #### `E` being on the pinky position
-I have `e` on pinky finger for almost a year, it is not really a problem. It may be a problem if `e` were to be on the right hand, as the right pinky has the additional burden of hitting BACKSPACE, ENTER, and punctuations.
+I have `e` on pinky finger for almost a year, it is not really a problem for me personally. I suspect that it may be a problem if `e` were to be on the right hand, as the right pinky has the additional burden of hitting BACKSPACE, ENTER, and punctuations (hence very easy to injure yourself when first starting out and correcting a lot)
 
-#### Having H at the qwerty `n` position
+#### Having `H` at the qwerty `N` position
 H is somewhat frequent in common english, but there are several reasons I placed it there :
 - it eliminates 2u (2 rows) jump on the index fingers
 - it allows `why` to be typed in this sequence: Left index -> right index -> right index
