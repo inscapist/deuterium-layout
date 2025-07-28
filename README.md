@@ -13,7 +13,7 @@
 
 ## Benefits
 - Very high efficiency due to very low SFBS, SFS (and redirect SFS). You would feel that all fingers are equally utilized
-- `y` can be typed with either hand, depending on letter sequence. And this eliminates a lot of efficiency problems
+- `y` can be typed with either hand, depending on letter sequence. `y` interacts with nearly all english letters and this eliminates a lot of same finger bigram/skipgram problems
 - Sufficient alternation between hands and between fingers (**it is quite hard to achieve this**)
 - Having many letters on the homerow
 - High inrolls/outrolls ratio (outrolls can feel less natural if they are on the pinky/ring)
@@ -97,10 +97,12 @@ from left pinky (0) to right pinky (7)
     1 2 3 3 3  4 4 5 6 7  
 ```
 
-# Readings
-- https://semilin.github.io/blog/2023/layout_quality.html
-- https://getreuer.info/posts/keyboards/alt-layouts/index.html#which-alt-keyboard-layout-should-i-learn
-- https://bit.ly/layout-doc-v2
-- https://cyanophage.github.io/
-
-
+# Resources (from AKL discord server)
+- Keyboard Layouts Doc - A very thorough document with in-depth explanations of typing and layout theory | https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o
+- Dreymar's Big Bag - A collection of modifications and other useful tricks | https://dreymar.colemak.org/
+- gfruit's Words Filter - A simple yet incredibly useful tool for finding words with certain bigrams, characters, and fingers | https://gfruit.github.io/typing/words-filter.html
+- Octa's Keymap Creator- A tool for creating and sharing layout fingermaps | https://keymap-creator--octatypes.repl.co/ 
+- Monkeytype Fingermap - Same as above, made by the creator of MonkeyType | https://fingermap.monkeytype.com/
+- MSKLC Guide - Documentation for the Windows layout creator tool | https://msklc-guide.github.io/#2
+- Guide to alt layouts - A helpful introduction to alt layouts | https://getreuer.info/posts/keyboards/alt-layouts/
+- Keyboard Layout Tryout - tool for testing how layouts feel by converting text | https://keyboard-layout-try-out.pages.dev/
