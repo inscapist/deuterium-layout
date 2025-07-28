@@ -7,7 +7,7 @@
 ![](./assets/layer.png)
 
 ## Cyanophage layout analyzer
-![](./assets/cyanophage.png)
+![](./assets/cyanophage-2.png)
 
 [link (select "angle mod")](https://cyanophage.github.io/playground.html?lan=english&layout=%5Cou.%27xfrlbzeaicpmdntsv%2F%2Cwgyhkjq%3B-%5Eback&mode=iso&thumb=l)
 
