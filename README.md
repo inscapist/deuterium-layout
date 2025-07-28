@@ -8,7 +8,7 @@
 
 ## Cyanophage layout analyzer
 ![](./assets/cyanophage-2.png)
-
+ 
 [link (select "angle mod")](https://cyanophage.github.io/playground.html?lan=english&layout=%5Cou.%27xfrlbzeaicpmdntsv%2F%2Cwgyhkjq%3B-%5Eback&mode=iso&thumb=l)
 
 ## Benefits
@@ -18,6 +18,8 @@
 - Having many letters on the homerow
 - High inrolls/outrolls ratio (outrolls can feel less natural if they are on the pinky/ring)
 - Having hjkl on the same hand in a relatively natural positions (vim + tiling window managers)
+- Very low 2u sfs
+- Bottom row on the ring/pinky is kept very light which helps with scissors (My older versions didn't do so well here)
 
 ## Design choices (some of it can be controversial)
 
@@ -33,7 +35,7 @@ H is somewhat frequent in common english, but there are several reasons I placed
 - it allows `why` to be typed in this sequence: Left index -> right index -> right index
 - it prevents index finger from being curled up in the `k` (qwerty `m`) position, which makes `y`/`x` harder to reach
 
-#### Right pinky having extra letters `z` and `v`
+#### Right pinky having extra letters `Z` and `V`
 The `v` position may a dealbreaker for some, but they are not unreasonable because `v` is usually a skipgram with another consonants (exceptions being `r`, `n`, `l`). And most of the letters that interact heavily with `v` are assigned to index finger, so there's sufficient runway. `z` is in the most awkward position but it is the least frequent letter in english. 
 
 ```
@@ -82,6 +84,18 @@ SHAI:
   LH/RH: 49.85% | 50.15%
 ```
 
+## Fingermap
+
+from left pinky (0) to right pinky (7)
+```
+  _ o u . '  x f r l b z
+   e a i c p  m d n t s v
+    / , w g ȳ  h k j q ;  
+
+  0 1 2 2 3  4 4 5 6 7 7
+   0 1 2 3 3  4 4 5 6 7 7
+    1 2 3 3 3  4 4 5 6 7  
+```
 
 # Readings
 - https://semilin.github.io/blog/2023/layout_quality.html
