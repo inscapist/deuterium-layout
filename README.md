@@ -1,27 +1,29 @@
 # Deuterium layout
 
 ## Main layer
-![](./assets/main.png)
+![](./assets/layout-v2.png)
 
 ## Symbol+Nav layer
-![](./assets/layer.png)
+![](./assets/layer-v2.png)
 
 ## Cyanophage layout analyzer
-![](./assets/cyanophage-2.png)
+![](./assets/cyanophage-v2.png)
  
-[link (select "angle mod")](https://cyanophage.github.io/playground.html?lan=english&layout=%5Cou.%27xfrlbzeaicpmdntsv%2F%2Cwgyhkjq%3B-%5Eback&mode=iso&thumb=l)
+[link (select "angle mod")](https://cyanophage.github.io/playground.html?lan=english&layout=%5Cou.%27qfrlbveaicpmdntsx%2F%2Cwgyhkjz%3B-%5Eback&mode=iso&thumb=l)
 
-## Benefits
-- High efficiency due to very low SFBS, SFS (and redirect SFS). It should feel quite fluid as all fingers are equally utilized
+## Why?
+- Efficient due to low SFBS, SFS (and redirect SFS). It should feel quite fluid as all fingers are equally utilized
 - `y` can be typed with either hand, depending on letter sequence. `y` interacts with nearly all english letters and this eliminates a lot of same finger bigram/skipgram problems
 - Sufficient alternation between hands and between (adjacent) fingers (**it is quite hard to achieve this**)
+- quite rolly, chordable
 - Having many letters on the homerow
-- High inrolls/outrolls ratio (outrolls can feel less natural if they are on the pinky/ring)
+- High inrolls, low outrolls
 - Having hjkl on the same hand in a relatively natural positions (vim + tiling window managers)
-- Very low 2u sfs
-- Bottom row on the ring/pinky is kept very light which helps with scissors (My older versions didn't do so well here)
+- Low 2u sfs
+- Bottom row on ring/pinky fingers is kept very light which eliminated some scissor issues
+- altable sfbs (`ui`, `oa`, `rn`)
 
-## Design choices (some of it can be controversial)
+## Design choices 
 
 #### Pushes frequent letters to the outer ring/pinky
 This allows the index fingers to move inward and reach inner column letters such as `y`, `p` and `x` more easily. In technical term, this reduces overall Lateral Stretch Bigrams (LSBs)
@@ -35,7 +37,7 @@ H is somewhat frequent in common english, but there are several reasons I placed
 - it allows `why` to be typed in this sequence: Left index -> right index -> right index
 - it prevents index finger from being curled up in the `k` (qwerty `m`) position, which makes `y`/`x` harder to reach
 
-#### Right pinky having extra letters `Z` and `V`
+#### Right pinky having extra letters `X` and `V`
 The `v` position may a dealbreaker for some, but they are not unreasonable because `v` is usually a skipgram with another consonants (exceptions being `r`, `n`, `l`). And most of the letters that interact heavily with `v` are assigned to index finger, so there's sufficient runway. `z` is in the most awkward position but it is the least frequent letter in english. 
 
 ```
@@ -63,26 +65,62 @@ v_t + t_v: 0.16%
 Total: 0.41%
 ```
 
+## Important note on hand positioning
+The `y` position should feel comfortable, otherwise you may need to rest your hands closer to the center. You should feel the curls when reaching `w` and `k` letters.
+
 ## Cmini
 
 ``` 
 deuterium
-  _ o u . '  x f r l b z
-   e a i c p  m d n t s v
-    / , w g ȳ  h k j q ;  
+  _ o u . '  q f r l b v
+   e a i c p  m d n t s x
+    / , w g ȳ  h k j z ;  
 
 SHAI:
-  Alt: 33.10%
-  Rol: 40.77%   (In/Out: 23.24% | 17.53%)
-  One:  1.00%   (In/Out:  0.58% |  0.41%)
-  Rtl: 41.77%   (In/Out: 23.82% | 17.94%)
-  Red:  3.01%   (Bad:     0.15%)
+  Alt: 33.11%
+  Rol: 40.77%   (In/Out: 23.34% | 17.43%)
+  One:  1.01%   (In/Out:  0.60% |  0.41%)
+  Rtl: 41.78%   (In/Out: 23.93% | 17.84%)
+  Red:  2.99%   (Bad:     0.15%)
 
   SFB:  0.76%
-  SFS:  4.49%   (Red/Alt: 0.72% | 3.78%)
+  SFS:  4.49%   (Red/Alt: 0.72% | 3.77%)
 
   LH/RH: 49.85% | 50.15%
 ```
+
+## Fingers load
+
+```
+  _ o u . '  q f r l b v
+   e a i c p  m d n t s x
+    / , w g ȳ  h k j z ;  
+
+SHAI:
+  LI:  9.48%    RI: 12.34%
+  LM: 13.57%    RM: 14.25%
+  LR: 15.72%    RR: 13.38%
+  LP: 12.52%    RP:  8.74%
+
+  Total: 100.00%
+```
+
+
+## 3 Rolls
+
+```
+str   0.137%
+nts   0.130%
+oug   0.108%
+cia   0.074%
+eac   0.059%
+eop   0.051%
+rts   0.036%
+ou'   0.034%
+cie   0.031%
+oup   0.028%
+```
+
 
 ## Fingermap
 
