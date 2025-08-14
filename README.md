@@ -1,44 +1,66 @@
 # Deuterium layout
 
-## Main layer
-![](./assets/layout-v2.png)
-
-## Symbol+Nav layer
-![](./assets/layer-v2.png)
+![](./assets/layout-v3.png)
 
 ## Cyanophage layout analyzer
-![](./assets/cyanophage-v2.png)
+![](./assets/cyanophage-v3a.png)
+---
+![](./assets/cyanophage-v3b.png)
  
-[link (select "angle mod")](https://cyanophage.github.io/playground.html?lan=english&layout=%5Cou.%27qfrlbveaicpmdntsx%2F%2Cwgyhkjz%3B-%5Eback&mode=iso&thumb=l)
+[link (select "angle mod")](https://cyanophage.github.io/playground.html?lan=english&layout=%5Cou.%27qbrlfveaicpmdntsx%3B%2Cwgyhkzj%2F-%5Eback&mode=iso&thumb=l)
+
+---
 
 ## Why?
-- Efficient due to low SFBS, SFS (and redirect SFS). It should feel quite fluid as all fingers are equally utilized
-- `y` can be typed with either hand, depending on letter sequence. `y` interacts with nearly all english letters and this eliminates a lot of same finger bigram/skipgram problems
-- Sufficient alternation between hands and between (adjacent) fingers (**it is quite hard to achieve this**)
-- quite rolly, chordable
-- Having many letters on the homerow
-- High inrolls, low outrolls
-- Having hjkl on the same hand in a relatively natural positions (vim + tiling window managers)
-- Low 2u sfs
-- Bottom row on ring/pinky fingers is kept very light which eliminated some scissor issues
-- altable sfbs (`ui`, `oa`, `rn`)
+- Quite rolly (inrolls), it has the best rolling feel out of all the homerows that I have tried, and is most similar to sturdy
+- Low 2u sfs and 2u row jumps
+- Alt-fingerable sfbs (`ui`, `oa`, `rn`)
 
-## Design choices 
+## Layout quirks
 
-#### Pushes frequent letters to the outer ring/pinky
-This allows the index fingers to move inward and reach inner column letters such as `y`, `p` and `x` more easily. In technical term, this reduces overall Lateral Stretch Bigrams (LSBs)
+#### Bidextrous `Y`
+`y` is assigned to either index finger depending on letter sequence. `y` interacts with nearly all english letters and this eliminates a lot of same finger bigram/skipgram problems
+
+#### `hjkl` clustering
+Having hjkl on the same hand in a relatively natural positions (vim + tiling window managers)
+
+#### `w` and `t` positions
+
+Helps reducing skip rolls (`iew`, `wei`, `m_nt`). By sandwiching `t` with `n` and `s`, you get comfortable rolls at the cost of some redirects.
+
+
+#### Shifts frequent letters on outer columns/pinky
+This allows the index fingers to move inward and reach inner column letters such as `y`, `p` and `x` more easily. 
 
 #### `E` being on the pinky position
-I have `e` on pinky finger for almost a year, it is not really a problem for me personally. I suspect that it may be a problem if `e` were to be on the right hand, as the right pinky has the additional burden of hitting BACKSPACE, ENTER, and punctuations (hence very easy to injure yourself when first starting out and correcting a lot)
+I have `e` on pinky finger for almost a year, it is not really a problem for me personally. 
+
+Not only it makes the vowel block less cramped, but also quite satisfying to have typed the left and right pinkies in succession: 
+
+```
+SHAI
+be + eb: 0.56%
+  be: 0.51%
+  eb: 0.04%
+ve + ev: 1.09%
+  ve: 0.85%
+  ev: 0.24%
+se + es: 1.99%
+  se: 0.80%
+  es: 1.19%
+xe + ex: 0.19%
+  xe: 0.02%
+  ex: 0.17%
+Total: 3.84%
+```
 
 #### Having `H` at the qwerty `N` position
 H is somewhat frequent in common english, but there are several reasons I placed it there :
-- it eliminates 2u (2 rows) jump on the index fingers
 - it allows `why` to be typed in this sequence: Left index -> right index -> right index
 - it prevents index finger from being curled up in the `k` (qwerty `m`) position, which makes `y`/`x` harder to reach
 
-#### Right pinky having extra letters `X` and `V`
-The `v` position may a dealbreaker for some, but they are not unreasonable because `v` is usually a skipgram with another consonants (exceptions being `r`, `n`, `l`). And most of the letters that interact heavily with `v` are assigned to index finger, so there's sufficient runway. `z` is in the most awkward position but it is the least frequent letter in english. 
+#### Extra column on right pinky
+The `v` position may a dealbreaker for some, but they are not unreasonable because `v` is usually a skipgram with another consonants (exceptions being `r`, `n`, `l`). And most of the letters that interact heavily with `v` are assigned to index finger, so there's sufficient runway. 
 
 ```
 SHAI
@@ -65,6 +87,11 @@ v_t + t_v: 0.16%
 Total: 0.41%
 ```
 
+#### Introducing the `mb` sfbs
+`b` letter interacts with `t` and `l` quite a fair bit. And words such as `visible`, `tables` would be problematic for the pinky as well. It happens to pair well with `j` that's on the bottom row
+
+---
+
 ## Important note on hand positioning
 The `y` position should feel comfortable, otherwise you may need to rest your hands closer to the center. You should feel the curls when reaching `w` and `k` letters.
 
@@ -72,19 +99,19 @@ The `y` position should feel comfortable, otherwise you may need to rest your ha
 
 ``` 
 deuterium
-  _ o u . '  q f r l b v
+  _ o u . '  q b r l f v
    e a i c p  m d n t s x
-    / , w g ȳ  h k j z ;  
+    ; , w g ȳ  h k z j /  
 
 SHAI:
-  Alt: 33.11%
-  Rol: 40.77%   (In/Out: 23.34% | 17.43%)
+  Alt: 33.22%
+  Rol: 40.69%   (In/Out: 22.96% | 17.73%)
   One:  1.01%   (In/Out:  0.60% |  0.41%)
-  Rtl: 41.78%   (In/Out: 23.93% | 17.84%)
-  Red:  2.99%   (Bad:     0.15%)
+  Rtl: 41.70%   (In/Out: 23.56% | 18.14%)
+  Red:  2.99%   (Bad:     0.17%)
 
-  SFB:  0.76%
-  SFS:  4.49%   (Red/Alt: 0.72% | 3.77%)
+  SFB:  0.79%
+  SFS:  4.37%   (Red/Alt: 0.71% | 3.66%)
 
   LH/RH: 49.85% | 50.15%
 ```
@@ -92,15 +119,15 @@ SHAI:
 ## Fingers load
 
 ```
-  _ o u . '  q f r l b v
+  _ o u . '  q b r l f v
    e a i c p  m d n t s x
-    / , w g ȳ  h k j z ;  
+    ; , w g ȳ  h k z j /  
 
 SHAI:
-  LI:  9.48%    RI: 12.34%
-  LM: 13.57%    RM: 14.25%
-  LR: 15.72%    RR: 13.38%
-  LP: 12.52%    RP:  8.74%
+  LI:  9.48%    RI: 12.15%
+  LM: 13.57%    RM: 14.23%
+  LR: 15.68%    RR: 13.40%
+  LP: 12.52%    RP:  8.96%
 
   Total: 100.00%
 ```
@@ -126,14 +153,16 @@ oup   0.028%
 
 from left pinky (0) to right pinky (7)
 ```
-  _ o u . '  x f r l b z
-   e a i c p  m d n t s v
-    / , w g ȳ  h k j q ;  
+  _ o u . '  q b r l f v
+   e a i c p  m d n t s x
+    ; , w g ȳ  h k z j /  
 
   0 1 2 2 3  4 4 5 6 7 7
    0 1 2 3 3  4 4 5 6 7 7
     1 2 3 3 3  4 4 5 6 7  
 ```
+
+`.` is assigned to middle finger. And `b` can be typed with either index or middle
 
 # Resources (from AKL discord server)
 - Keyboard Layouts Doc - A very thorough document with in-depth explanations of typing and layout theory | https://docs.google.com/document/d/1W0jhfqJI2ueJ2FNseR4YAFpNfsUM-_FlREHbpNGmC2o
