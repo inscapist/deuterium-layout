@@ -39,19 +39,19 @@ Not only it makes the vowel block less cramped, but also quite satisfying to hav
 
 ```
 SHAI
-be + eb: 0.56%
-  be: 0.51%
-  eb: 0.04%
-ve + ev: 1.09%
-  ve: 0.85%
-  ev: 0.24%
 se + es: 1.99%
   se: 0.80%
   es: 1.19%
+ve + ev: 1.09%
+  ve: 0.85%
+  ev: 0.24%
 xe + ex: 0.19%
   xe: 0.02%
   ex: 0.17%
-Total: 3.84%
+fe + ef: 0.35%
+  fe: 0.22%
+  ef: 0.13%
+Total: 3.63%
 ```
 
 #### Having `H` at the qwerty `N` position
